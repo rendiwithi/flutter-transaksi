@@ -103,10 +103,10 @@ class _LoginPageState extends State<LoginPage> {
                         height: 200,
                         width: 200,
                         child: Image.asset(
-                          'assets/images/polinema_logo.png',
+                          'assets/images/applogo.png',
                         ),
                       ),
-                      const Text("CRUD SISCA V 1.0"),
+                      const Text("MyCashBook V 1.0"),
                       Column(
                         children: [
                           CardInput(
