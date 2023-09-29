@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                           'assets/images/applogo.png',
                         ),
                       ),
-                      const Text("MyCashBook V 1.0"),
+                      const Text("Rizka App V 1.0"),
                       Column(
                         children: [
                           CardInput(

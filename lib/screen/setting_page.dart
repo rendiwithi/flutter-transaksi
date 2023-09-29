@@ -154,8 +154,8 @@ class _SettingPageState extends State<SettingPage> {
                   children: [
                     Text("About This App"),
                     Text("Aplikasi ini dibuat oleh:"),
-                    Text("Nama: Sisca Dwi Rahayu"),
-                    Text("NIM: 2141764003"),
+                    Text("Nama: Rizka Nur Cahyani"),
+                    Text("NIM: 2141764065"),
                     Text("Tanggal: 27 September 2023"),
                   ],
                 )
