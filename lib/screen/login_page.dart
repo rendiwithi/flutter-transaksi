@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       );
-    } else if (usernameController.text == "sisca" &&
+    } else if (usernameController.text == "rizka" &&
         passwordController.text == password &&
         isLogin == false) {
       savePass();
@@ -53,8 +53,8 @@ class _LoginPageState extends State<LoginPage> {
           builder: (context) => const HomePage(),
         ),
       );
-    } else if (usernameController.text == "sisca" &&
-        passwordController.text == 'sisca123' &&
+    } else if (usernameController.text == "rizka" &&
+        passwordController.text == 'rizka123' &&
         password.toString().contains("null")) {
       savePass();
       Navigator.pushReplacement(
