@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       );
-    } else if (usernameController.text == "rizka" &&
+    } else if (usernameController.text == "nelli" &&
         passwordController.text == password &&
         isLogin == false) {
       savePass();
@@ -53,8 +53,8 @@ class _LoginPageState extends State<LoginPage> {
           builder: (context) => const HomePage(),
         ),
       );
-    } else if (usernameController.text == "rizka" &&
-        passwordController.text == 'rizka123' &&
+    } else if (usernameController.text == "nelli" &&
+        passwordController.text == 'nelli123' &&
         password.toString().contains("null")) {
       savePass();
       Navigator.pushReplacement(
@@ -103,10 +103,10 @@ class _LoginPageState extends State<LoginPage> {
                         height: 200,
                         width: 200,
                         child: Image.asset(
-                          'assets/images/applogo.png',
+                          'assets/images/applogo.jpeg',
                         ),
                       ),
-                      const Text("Rizka App V 1.0"),
+                      const Text("Nelli CashBook V 1.0"),
                       Column(
                         children: [
                           CardInput(
